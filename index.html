@@ -1,0 +1,38 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Braille Translator</title>
+      <link rel="stylesheet" type='text/css' href="style.css" >
+   </head>
+   <body>
+      <script type="text/javascript" src="fetchGet.js"></script>
+      <div class="header">
+         <h1>Braillerss</h1>
+      </div>
+      <div class="row">
+         <div class="card">
+            <h2>BRAILLE INFORMATION</h2>
+            <h5>Braille ENGLISH alphabet, number, and punctuations</h5>
+            <img src="./braille_img.jpg" alt="Braille info">
+         </div>
+         <div class="card">
+            <form>
+               <h2 >TRANSLATE ENGLISH TO BRAILLE</h2>
+               <div class="row">
+                  <div  class="column" style="background-color:bisque">
+                     <h2>English</h2>
+                     <textarea name="engtext" id="engtext" style="background-color:white"  placeholder="Your words..." rows="11" cols="73"></textarea>
+                     <button type="submit" value="send">Translate this please</button> 
+                  </div>
+                  <div class="column" style="background-color:bisque">
+                     <h2>Braille</h2>
+                     <textarea name="brtext" id="brtext" style="background-color:white" placeholder="Translating..." rows="11" cols="73"></textarea>
+                  </div>
+               </div>
+         </div>
+         </form>
+      </div>
+   </body>
+</html>
